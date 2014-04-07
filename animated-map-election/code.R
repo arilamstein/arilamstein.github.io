@@ -1,4 +1,5 @@
 # make an animated choropleth showing the results of all US presidential elections
+library(choroplethr)
 
 choropleths = list()
 for (i in 2:ncol(df_president_ts)) {
