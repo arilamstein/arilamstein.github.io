@@ -4,7 +4,8 @@ library(plyr)
 library(Hmisc)
 library(ggplot2)
 
-# Get Case-Shiller data from Quandl
+# FRED Housing Indices from Quandl
+# http://research.stlouisfed.org/fred2/categories/32261
 states <- state.abb
 state_dfs <- list()
 for (i in 1:length(state.abb))
